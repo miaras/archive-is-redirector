@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Archive Redirector Settings</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 500px;
+      padding: 16px;
+    }
+    input {
+      width: 70%;
+    }
+    ul {
+      padding-left: 0;
+    }
+    li {
+      list-style: none;
+      margin: 6px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .active {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Domains redirected to archive.is</h2>
+
+  <p>The following domains are currently <strong>actively redirected</strong>
+     (homepages excluded).</p>
+
+  <input id="domainInput" placeholder="example.com" />
+  <button id="addBtn">Add</button>
+
+  <ul id="domainList"></ul>
+
+  <script src="options.js"></script>
+</body>
+</html>
+

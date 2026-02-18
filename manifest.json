@@ -1,0 +1,20 @@
+{
+  "name": "Archive.is Redirector",
+  "description": "Redirect selected domains to archive.is",
+  "version": "1.1.0",
+  "manifest_version": 3,
+
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+
+  "host_permissions": ["<all_urls>"],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "options_page": "options.html"
+}
+
