@@ -4,7 +4,7 @@ You can add any website you want to redirect.
 
 Usage:
 
-`git clone github.com/miaras/archive-is-redirector`
+`https://github.com/miaras/archive-is-redirector.git`
 
 Go to chrome://extensions
 
